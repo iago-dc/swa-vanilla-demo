@@ -27,5 +27,15 @@
       "mode": "production"
     }
   },
-  "entities": {}
+  "entities": {
+    "Person": {
+      "source": "MyTestPersonTable",
+      "permissions": [
+        {
+          "actions": ["*"],
+          "role": "anonymous"
+        }
+      ]
+    }
+  }
 }
