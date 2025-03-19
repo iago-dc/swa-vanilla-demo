@@ -27,7 +27,7 @@
   },
   "entities": {
     "Person": {
-      "source": "MyTestPersonTable",
+      "source": "postgres",
       "permissions": [
         {
           "actions": ["*"],
