@@ -2,7 +2,7 @@
   "$schema": "https://github.com/Azure/data-api-builder/releases/latest/download/dab.draft.schema.json",
   "data-source": {
     "database-type": "postgresql",
-    "connection-string": "var conn= new Client({host:\"psql-idomingc.postgres.database.azure.com\", user:\"adminuser\", password:\"@Password123\", database:\"postgres\", port:5432});"
+    "connection-string": "Server=psql-idomingc.postgres.database.azure.com;Database=person;Port=5432;User Id=adminuser;Password=@Password123;Ssl Mode=Require;"
   },
   "runtime": {
     "rest": {
