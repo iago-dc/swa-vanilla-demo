@@ -27,7 +27,7 @@
   },
   "entities": {
     "Person": {
-      "source": "Person",
+      "source": "person.Person",
       "permissions": [
         {
           "actions": ["*"],
