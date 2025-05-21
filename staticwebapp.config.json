@@ -14,7 +14,4 @@
         "redirect": "/.auth/login/github"
       }
     }
-    "platform": {
-        "apiRuntime": "python:3.12"
-    }
 }
